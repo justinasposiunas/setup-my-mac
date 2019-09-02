@@ -1,0 +1,21 @@
+---
+homebrew_installed_packages:
+  - httpie
+  - tree
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_apps:
+  - docker
+  - google-chrome
+  - notion
+  - slack
+  - spotify
+  - visual-studio-code
+
+mas_installed_apps:
+  - { id: 1091189122, name: "Bear (1.6.15)" }
+mas_email: ""
+mas_password: ""

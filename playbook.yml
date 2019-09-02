@@ -1,0 +1,11 @@
+---
+# setup my macbook just the way I like it
+
+- hosts: mac
+ 
+  vars_files:
+    - default.config.yml
+ 
+  roles:
+    - geerlingguy.homebrew
+    - geerlingguy.mas
