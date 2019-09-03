@@ -1,0 +1,12 @@
+- name: Download zsh installer
+  get_url:
+    url: https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh
+    dest: /tmp/zsh-installer.sh
+
+- name: Execute the zsh-installer.sh
+  script: /tmp/zsh-installer.sh
+
+- name: Remove the zsh-installer.sh
+  file:
+    path: /tmp/zsh-installer.sh
+    state: absent

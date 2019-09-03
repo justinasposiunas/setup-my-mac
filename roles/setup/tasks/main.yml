@@ -1,2 +1,0 @@
-- name: say hello
-  command: say hello hello

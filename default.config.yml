@@ -1,7 +1,21 @@
 ---
+configure_dotfiles: yes
+
+dotfiles_repo: "https://github.com/justinasposiunas/dotfiles.git"
+dotfiles_repo_version: master
+dotfiles_repo_accept_hostkey: yes
+dotfiles_files:
+  - .gitconfig
+  - .zshrc
+
 homebrew_installed_packages:
+  - composer
+  - git
   - httpie
+  - php
+  - sqlite
   - tree
+  - zsh
 
 homebrew_taps:
   - homebrew/core
@@ -9,13 +23,19 @@ homebrew_taps:
 
 homebrew_cask_apps:
   - docker
+  - firefox
   - google-chrome
+  - iterm2
   - notion
   - slack
   - spotify
+  - sequel-pro
+  - vagrant
   - visual-studio-code
+  - vlc
 
 mas_installed_apps:
   - { id: 1091189122, name: "Bear (1.6.15)" }
+  - { id: 1176895641, name: "Spark - Email App by Readdle (2.3.10)" }
 mas_email: ""
 mas_password: ""

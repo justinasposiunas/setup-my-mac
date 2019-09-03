@@ -7,5 +7,13 @@
     - default.config.yml
  
   roles:
-    - geerlingguy.homebrew
-    - geerlingguy.mas
+    - role: geerlingguy.homebrew
+      tags: ['homebrew']
+    - role: geerlingguy.dotfiles
+      when: configure_dotfiles
+      tags: ['dotfiles']
+    - role: geerlingguy.mas
+      when: mas_installed_apps
+      tags: ['mas']
+    - role: ohmyzsh
+      tags: ['ohmyzsh']
