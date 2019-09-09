@@ -12,6 +12,8 @@ homebrew_installed_packages:
   - composer
   - git
   - httpie
+  - node
+  - nvm
   - php
   - sqlite
   - tree
