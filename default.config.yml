@@ -17,6 +17,7 @@ homebrew_installed_packages:
   - php
   - sqlite
   - tree
+  - wget
   - zsh
 
 homebrew_taps:
@@ -41,3 +42,7 @@ mas_installed_apps:
   - { id: 1176895641, name: "Spark - Email App by Readdle (2.3.10)" }
 mas_email: ""
 mas_password: ""
+
+composer_packages:
+  - name: psy/psysh
+    state: present

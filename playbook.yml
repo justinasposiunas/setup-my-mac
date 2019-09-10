@@ -17,3 +17,7 @@
       tags: ['mas']
     - role: ohmyzsh
       tags: ['ohmyzsh']
+
+  tasks:
+    - include_tasks: tasks/extra-packages.yml
+      tags: ['extra-packages']
