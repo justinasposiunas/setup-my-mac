@@ -25,6 +25,7 @@ homebrew_taps:
   - homebrew/cask
 
 homebrew_cask_apps:
+  - caffeine
   - docker
   - firefox
   - google-chrome
