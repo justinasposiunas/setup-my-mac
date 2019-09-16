@@ -10,6 +10,7 @@ dotfiles_files:
 
 homebrew_installed_packages:
   - composer
+  - exercism
   - git
   - httpie
   - node
