@@ -17,6 +17,7 @@ homebrew_installed_packages:
   - nvm
   - php
   - sqlite
+  - tmux
   - tree
   - wget
   - zsh
