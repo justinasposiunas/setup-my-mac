@@ -34,8 +34,9 @@ homebrew_cask_apps:
   - iterm2
   - notion
   - slack
-  - spotify
   - sequel-pro
+  - spotify
+  - spectacle
   - vagrant
   - visual-studio-code
   - vlc
