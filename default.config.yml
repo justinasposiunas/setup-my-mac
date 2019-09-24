@@ -41,6 +41,7 @@ homebrew_cask_apps:
   - vagrant
   - visual-studio-code
   - vlc
+  - zoomus
 
 mas_installed_apps:
   - { id: 1091189122, name: "Bear (1.6.15)" }
