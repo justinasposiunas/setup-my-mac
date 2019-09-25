@@ -45,6 +45,7 @@ homebrew_cask_apps:
 
 mas_installed_apps:
   - { id: 1091189122, name: "Bear (1.6.15)" }
+  - { id: 1368722917, name: "Effortless (2.0.24)"}
   - { id: 1176895641, name: "Spark - Email App by Readdle (2.3.10)" }
 mas_email: ""
 mas_password: ""
