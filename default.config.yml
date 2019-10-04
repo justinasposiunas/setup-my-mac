@@ -33,6 +33,7 @@ homebrew_cask_apps:
   - docker
   - firefox
   - google-chrome
+  - insomnia
   - iterm2
   - notion
   - slack
