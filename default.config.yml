@@ -12,6 +12,7 @@ homebrew_installed_packages:
   - composer
   - exercism
   - git
+  - go
   - httpie
   - node
   - nvm
