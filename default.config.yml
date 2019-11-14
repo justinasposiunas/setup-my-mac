@@ -1,5 +1,6 @@
 ---
 configure_dotfiles: yes
+configure_macos: no
 
 dotfiles_repo: "https://github.com/justinasposiunas/dotfiles.git"
 dotfiles_repo_version: master
@@ -7,6 +8,7 @@ dotfiles_repo_accept_hostkey: yes
 dotfiles_files:
   - .gitconfig
   - .zshrc
+  - .macos
 
 homebrew_installed_packages:
   - composer
@@ -56,6 +58,8 @@ mas_installed_apps:
   - { id: 1176895641, name: "Spark - Email App by Readdle (2.3.10)" }
 mas_email: ""
 mas_password: ""
+
+osx_script: "~/.macos --no-restart"
 
 composer_packages:
   - name: psy/psysh
