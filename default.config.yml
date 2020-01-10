@@ -48,7 +48,9 @@ homebrew_cask_apps:
   - spotify
   - spectacle
   - sublime-merge
+  - tableplus
   - vagrant
+  - virtualbox  
   - visual-studio-code
   - vlc
   - zoomus
@@ -64,4 +66,8 @@ osx_script: "~/.macos --no-restart"
 
 composer_packages:
   - name: psy/psysh
+    state: present
+  - name: phpunit/phpunit
+    state: present
+  - name: hirak/prestissimo
     state: present
