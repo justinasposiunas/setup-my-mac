@@ -16,6 +16,7 @@ homebrew_installed_packages:
   - git
   - go
   - httpie
+  - jq
   - node
   - nvm
   - php
